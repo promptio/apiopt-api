@@ -1,0 +1,21 @@
+{
+  "name": "analytics",
+  "plural": "analyticss",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "event": {
+      "type": "string"
+    },
+    "account": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
